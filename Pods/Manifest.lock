@@ -1,0 +1,31 @@
+PODS:
+  - Alamofire (3.5.1)
+  - GoogleMaps (1.10.5)
+  - ReachabilitySwift (2.4)
+  - Spring (1.0.3)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.5)
+  - GoogleMaps (= 1.10.5)
+  - ReachabilitySwift (~> 2.4)
+  - Spring (from `https://github.com/tpae/Spring.git`, branch `swift-2.3-migration`)
+
+EXTERNAL SOURCES:
+  Spring:
+    :branch: swift-2.3-migration
+    :git: https://github.com/tpae/Spring.git
+
+CHECKOUT OPTIONS:
+  Spring:
+    :commit: d49c77c36c1c49a5064f4726fb7fec9b3abbe4fb
+    :git: https://github.com/tpae/Spring.git
+
+SPEC CHECKSUMS:
+  Alamofire: 0dfba1184a543e2aa160f4e39cac4e8aba48d223
+  GoogleMaps: da51c62c338c2d9c47cdad470a0d1e0e4b8544e4
+  ReachabilitySwift: dc7452dab85ff881904215e1a113326ad8d07beb
+  Spring: 3f02b5dc3308572ef177b3cad0fa7bbc4b0706f7
+
+PODFILE CHECKSUM: c7f2db3ea7c15b920d466a1930a59fe10610f038
+
+COCOAPODS: 1.1.0.rc.2

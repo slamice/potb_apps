@@ -1,0 +1,821 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22A53FB25740764FA5140AC0 /* Pods_Pirates_Of_Tokyo_Bay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2F849279E738AAE67CE3DE6 /* Pods_Pirates_Of_Tokyo_Bay.framework */; };
+		C20781FE1C6713F400A5CEE0 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20781FD1C6713F400A5CEE0 /* MapViewController.swift */; };
+		C22A16D01CCC437200811947 /* NotoSansCJKjp-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = C22A16C91CCC437200811947 /* NotoSansCJKjp-Bold.otf */; };
+		C22A16D41CCC437200811947 /* NotoSansCJKjp-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = C22A16CD1CCC437200811947 /* NotoSansCJKjp-Regular.otf */; };
+		C22DDA261BB7638200FAAD42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22DDA251BB7638200FAAD42 /* AppDelegate.swift */; };
+		C22DDA2D1BB7638200FAAD42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C22DDA2C1BB7638200FAAD42 /* Assets.xcassets */; };
+		C22DDA301BB7638200FAAD42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C22DDA2E1BB7638200FAAD42 /* LaunchScreen.storyboard */; };
+		C22DDA3B1BB7638200FAAD42 /* PiratesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22DDA3A1BB7638200FAAD42 /* PiratesTests.swift */; };
+		C22DDA461BB7638200FAAD42 /* PiratesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22DDA451BB7638200FAAD42 /* PiratesUITests.swift */; };
+		C23492A81C5559E500A746CC /* ProgramsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23492A71C5559E500A746CC /* ProgramsTableViewController.swift */; };
+		C23492B01C55B48900A746CC /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = C23492AF1C55B48900A746CC /* Podfile */; };
+		C23492B21C55B4AF00A746CC /* temp.Podfile.lock in Resources */ = {isa = PBXBuildFile; fileRef = C23492B11C55B4AF00A746CC /* temp.Podfile.lock */; };
+		C24FC3941C82552100FC4BE3 /* PerformersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24FC3931C82552100FC4BE3 /* PerformersTableViewCell.swift */; };
+		C24FC3981C825A8A00FC4BE3 /* GamesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24FC3971C825A8A00FC4BE3 /* GamesTableViewCell.swift */; };
+		C27BC15F1C37C70300A2DF6D /* ProgramsApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27BC15E1C37C70300A2DF6D /* ProgramsApi.swift */; };
+		C27D3D1C1CA6828C00D059C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C27D3D1B1CA6828C00D059C3 /* Main.storyboard */; };
+		C28B039B1C01448E00A39D70 /* EventsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28B039A1C01448E00A39D70 /* EventsTableViewController.swift */; };
+		C29B1CE51C4B04C700B17AAE /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29B1CE41C4B04C700B17AAE /* EventTableViewCell.swift */; };
+		C2B012AA1D75BB2B00F17563 /* InternetConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B012A91D75BB2B00F17563 /* InternetConnection.swift */; };
+		C2B517E71C1CEC4D00F2FDBE /* EventApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B517E61C1CEC4D00F2FDBE /* EventApi.swift */; };
+		C2B716EE1D879BE00030019C /* DateAndTimeFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B716ED1D879BE00030019C /* DateAndTimeFormatter.swift */; };
+		C2B716F21D87B6B00030019C /* LabelWthMargins.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B716F11D87B6B00030019C /* LabelWthMargins.swift */; };
+		C2B81C7A1CBBC3DD00D15AFC /* VoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B81C791CBBC3DD00D15AFC /* VoteViewController.swift */; };
+		C2BEDC3C1BDC021800CEDF7D /* SocialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BEDC3B1BDC021800CEDF7D /* SocialViewController.swift */; };
+		C2BEDC3E1BDC20A800CEDF7D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BEDC3D1BDC20A800CEDF7D /* MainViewController.swift */; };
+		C2BEDC401BDC225900CEDF7D /* VoteWhiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BEDC3F1BDC225900CEDF7D /* VoteWhiteViewController.swift */; };
+		C2BEDC421BDC3BFE00CEDF7D /* VoteRedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BEDC411BDC3BFE00CEDF7D /* VoteRedViewController.swift */; };
+		C2C0EAA61BF7A414003FE224 /* VotingApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C0EAA51BF7A414003FE224 /* VotingApi.swift */; };
+		C2C0EAAE1BF7EE5E003FE224 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C0EAAD1BF7EE5E003FE224 /* SwiftyJSON.swift */; };
+		C2C209B21D32065100AA7CE4 /* LoadingTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C209B11D32065100AA7CE4 /* LoadingTableView.swift */; };
+		C2D6F9291CA75BBA00B91A6F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D6F9281CA75BBA00B91A6F /* AVFoundation.framework */; };
+		C2D6F92D1CA75BCE00B91A6F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D6F92C1CA75BCE00B91A6F /* CoreLocation.framework */; };
+		C2D6F9311CA75BE100B91A6F /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D6F9301CA75BE100B91A6F /* GLKit.framework */; };
+		C2D6F9331CA75BEB00B91A6F /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D6F9321CA75BEB00B91A6F /* ImageIO.framework */; };
+		C2D6F9351CA75CAD00B91A6F /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D6F9341CA75CAD00B91A6F /* OpenGLES.framework */; };
+		C2D6F9371CA75CB500B91A6F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D6F9361CA75CB500B91A6F /* QuartzCore.framework */; };
+		C2D6F9391CA75CBE00B91A6F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D6F9381CA75CBE00B91A6F /* SystemConfiguration.framework */; };
+		C2D6F93D1CA75D9900B91A6F /* libc++.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D6F93A1CA75D9900B91A6F /* libc++.1.dylib */; };
+		C2D6F93E1CA75D9900B91A6F /* libicucore.A.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D6F93B1CA75D9900B91A6F /* libicucore.A.dylib */; };
+		C2D6F9401CA75DD800B91A6F /* libz.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D6F93C1CA75D9900B91A6F /* libz.1.dylib */; };
+		C2D6F9411CA75E1C00B91A6F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D6F92A1CA75BC600B91A6F /* CoreData.framework */; };
+		C2DC60321CB9D9BE0020509F /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DC60311CB9D9BE0020509F /* ScheduleViewController.swift */; };
+		C2DD31731D582D7B00A6C9EB /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DD31721D582D7B00A6C9EB /* NewsViewController.swift */; };
+		C2FF40E91C7D86FB00710A57 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FF40E81C7D86FB00710A57 /* NewsTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C22DDA371BB7638200FAAD42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C22DDA1A1BB7638200FAAD42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C22DDA211BB7638200FAAD42;
+			remoteInfo = Pirates;
+		};
+		C22DDA421BB7638200FAAD42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C22DDA1A1BB7638200FAAD42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C22DDA211BB7638200FAAD42;
+			remoteInfo = Pirates;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C28B03991C012D8600A39D70 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		74C360D2C80651C9E44608A4 /* Pods-Pirates Of Tokyo Bay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pirates Of Tokyo Bay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pirates Of Tokyo Bay/Pods-Pirates Of Tokyo Bay.debug.xcconfig"; sourceTree = "<group>"; };
+		A25245643E5A5EDE217B67FB /* Pods-Pirates Of Tokyo Bay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pirates Of Tokyo Bay.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pirates Of Tokyo Bay/Pods-Pirates Of Tokyo Bay.release.xcconfig"; sourceTree = "<group>"; };
+		C20781E71C669E9000A5CEE0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		C20781F21C66F48F00A5CEE0 /* Pirates Of Tokyo Bay-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pirates Of Tokyo Bay-Bridging-Header.h"; sourceTree = "<group>"; };
+		C20781FD1C6713F400A5CEE0 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		C22A16C91CCC437200811947 /* NotoSansCJKjp-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NotoSansCJKjp-Bold.otf"; path = "../../../Library/Fonts/NotoSansCJKjp-Bold.otf"; sourceTree = "<group>"; };
+		C22A16CD1CCC437200811947 /* NotoSansCJKjp-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NotoSansCJKjp-Regular.otf"; path = "../../../Library/Fonts/NotoSansCJKjp-Regular.otf"; sourceTree = "<group>"; };
+		C22DDA221BB7638200FAAD42 /* Pirates Of Tokyo Bay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pirates Of Tokyo Bay.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C22DDA251BB7638200FAAD42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Pirates/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		C22DDA2C1BB7638200FAAD42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C22DDA2F1BB7638200FAAD42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C22DDA311BB7638200FAAD42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C22DDA361BB7638200FAAD42 /* Pirates Of Tokyo Bay.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pirates Of Tokyo Bay.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C22DDA3A1BB7638200FAAD42 /* PiratesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiratesTests.swift; sourceTree = "<group>"; };
+		C22DDA3C1BB7638200FAAD42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C22DDA411BB7638200FAAD42 /* Pirates Of Tokyo Bay.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pirates Of Tokyo Bay.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C22DDA451BB7638200FAAD42 /* PiratesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiratesUITests.swift; sourceTree = "<group>"; };
+		C22DDA471BB7638200FAAD42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C23492A71C5559E500A746CC /* ProgramsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgramsTableViewController.swift; sourceTree = "<group>"; };
+		C23492AF1C55B48900A746CC /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C23492B11C55B4AF00A746CC /* temp.Podfile.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = temp.Podfile.lock; sourceTree = "<group>"; };
+		C24FC3931C82552100FC4BE3 /* PerformersTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerformersTableViewCell.swift; sourceTree = "<group>"; };
+		C24FC3971C825A8A00FC4BE3 /* GamesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamesTableViewCell.swift; sourceTree = "<group>"; };
+		C27BC15E1C37C70300A2DF6D /* ProgramsApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgramsApi.swift; sourceTree = "<group>"; };
+		C27D3D1B1CA6828C00D059C3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C28B039A1C01448E00A39D70 /* EventsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsTableViewController.swift; sourceTree = "<group>"; };
+		C29B1CE41C4B04C700B17AAE /* EventTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EventTableViewCell.swift; path = Spring/EventTableViewCell.swift; sourceTree = "<group>"; };
+		C2B012A91D75BB2B00F17563 /* InternetConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternetConnection.swift; sourceTree = "<group>"; };
+		C2B517E61C1CEC4D00F2FDBE /* EventApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventApi.swift; sourceTree = "<group>"; };
+		C2B716ED1D879BE00030019C /* DateAndTimeFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateAndTimeFormatter.swift; sourceTree = "<group>"; };
+		C2B716F11D87B6B00030019C /* LabelWthMargins.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelWthMargins.swift; sourceTree = "<group>"; };
+		C2B81C791CBBC3DD00D15AFC /* VoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoteViewController.swift; sourceTree = "<group>"; };
+		C2BEDC3B1BDC021800CEDF7D /* SocialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialViewController.swift; sourceTree = "<group>"; };
+		C2BEDC3D1BDC20A800CEDF7D /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		C2BEDC3F1BDC225900CEDF7D /* VoteWhiteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoteWhiteViewController.swift; sourceTree = "<group>"; };
+		C2BEDC411BDC3BFE00CEDF7D /* VoteRedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoteRedViewController.swift; sourceTree = "<group>"; };
+		C2C0EAA51BF7A414003FE224 /* VotingApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VotingApi.swift; sourceTree = "<group>"; };
+		C2C0EAAD1BF7EE5E003FE224 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		C2C209B11D32065100AA7CE4 /* LoadingTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingTableView.swift; sourceTree = "<group>"; };
+		C2D6F9281CA75BBA00B91A6F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C2D6F92A1CA75BC600B91A6F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C2D6F92C1CA75BCE00B91A6F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C2D6F92E1CA75BD700B91A6F /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		C2D6F9301CA75BE100B91A6F /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		C2D6F9321CA75BEB00B91A6F /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		C2D6F9341CA75CAD00B91A6F /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		C2D6F9361CA75CB500B91A6F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C2D6F9381CA75CBE00B91A6F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C2D6F93A1CA75D9900B91A6F /* libc++.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.1.dylib"; path = "../../../../usr/lib/libc++.1.dylib"; sourceTree = "<group>"; };
+		C2D6F93B1CA75D9900B91A6F /* libicucore.A.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.A.dylib; path = ../../../../usr/lib/libicucore.A.dylib; sourceTree = "<group>"; };
+		C2D6F93C1CA75D9900B91A6F /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = ../../../../usr/lib/libz.1.dylib; sourceTree = "<group>"; };
+		C2DC60311CB9D9BE0020509F /* ScheduleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
+		C2DD31721D582D7B00A6C9EB /* NewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		C2F849279E738AAE67CE3DE6 /* Pods_Pirates_Of_Tokyo_Bay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pirates_Of_Tokyo_Bay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2FF40E81C7D86FB00710A57 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		D7F753D34E9FD3CB284C5216 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C22DDA1F1BB7638200FAAD42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2D6F9391CA75CBE00B91A6F /* SystemConfiguration.framework in Frameworks */,
+				C2D6F9371CA75CB500B91A6F /* QuartzCore.framework in Frameworks */,
+				C2D6F9351CA75CAD00B91A6F /* OpenGLES.framework in Frameworks */,
+				C2D6F9401CA75DD800B91A6F /* libz.1.dylib in Frameworks */,
+				C2D6F93E1CA75D9900B91A6F /* libicucore.A.dylib in Frameworks */,
+				C2D6F93D1CA75D9900B91A6F /* libc++.1.dylib in Frameworks */,
+				C2D6F9331CA75BEB00B91A6F /* ImageIO.framework in Frameworks */,
+				C2D6F9311CA75BE100B91A6F /* GLKit.framework in Frameworks */,
+				C2D6F92D1CA75BCE00B91A6F /* CoreLocation.framework in Frameworks */,
+				C2D6F9411CA75E1C00B91A6F /* CoreData.framework in Frameworks */,
+				C2D6F9291CA75BBA00B91A6F /* AVFoundation.framework in Frameworks */,
+				22A53FB25740764FA5140AC0 /* Pods_Pirates_Of_Tokyo_Bay.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C22DDA331BB7638200FAAD42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C22DDA3E1BB7638200FAAD42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D3E79EB439994F18EEFA642 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2D6F93A1CA75D9900B91A6F /* libc++.1.dylib */,
+				C2D6F93B1CA75D9900B91A6F /* libicucore.A.dylib */,
+				C2D6F93C1CA75D9900B91A6F /* libz.1.dylib */,
+				C2D6F9381CA75CBE00B91A6F /* SystemConfiguration.framework */,
+				C2D6F9361CA75CB500B91A6F /* QuartzCore.framework */,
+				C2D6F9341CA75CAD00B91A6F /* OpenGLES.framework */,
+				C2D6F9321CA75BEB00B91A6F /* ImageIO.framework */,
+				C2D6F9301CA75BE100B91A6F /* GLKit.framework */,
+				C2D6F92E1CA75BD700B91A6F /* CoreText.framework */,
+				C2D6F92C1CA75BCE00B91A6F /* CoreLocation.framework */,
+				C2D6F92A1CA75BC600B91A6F /* CoreData.framework */,
+				C2D6F9281CA75BBA00B91A6F /* AVFoundation.framework */,
+				C20781E71C669E9000A5CEE0 /* MapKit.framework */,
+				D7F753D34E9FD3CB284C5216 /* Pods.framework */,
+				C2F849279E738AAE67CE3DE6 /* Pods_Pirates_Of_Tokyo_Bay.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C22A16C11CCC42F900811947 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				C22A16C91CCC437200811947 /* NotoSansCJKjp-Bold.otf */,
+				C22A16CD1CCC437200811947 /* NotoSansCJKjp-Regular.otf */,
+			);
+			name = Font;
+			sourceTree = "<group>";
+		};
+		C22DDA191BB7638200FAAD42 = {
+			isa = PBXGroup;
+			children = (
+				C23492B11C55B4AF00A746CC /* temp.Podfile.lock */,
+				C23492AF1C55B48900A746CC /* Podfile */,
+				C22DDA241BB7638200FAAD42 /* Pirates */,
+				C22DDA391BB7638200FAAD42 /* PiratesTests */,
+				C22DDA441BB7638200FAAD42 /* PiratesUITests */,
+				C22DDA231BB7638200FAAD42 /* Products */,
+				6D3E79EB439994F18EEFA642 /* Frameworks */,
+				FFDB9F0DD8E626C12D61C0A1 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		C22DDA231BB7638200FAAD42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C22DDA221BB7638200FAAD42 /* Pirates Of Tokyo Bay.app */,
+				C22DDA361BB7638200FAAD42 /* Pirates Of Tokyo Bay.xctest */,
+				C22DDA411BB7638200FAAD42 /* Pirates Of Tokyo Bay.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C22DDA241BB7638200FAAD42 /* Pirates */ = {
+			isa = PBXGroup;
+			children = (
+				C2B716E61D879BC70030019C /* Utilities */,
+				C22A16C11CCC42F900811947 /* Font */,
+				C2427CED1C9DE10900AD5414 /* APIs */,
+				C2427CEC1C9DE0FC00AD5414 /* ViewControllers */,
+				C22DDA2C1BB7638200FAAD42 /* Assets.xcassets */,
+				C27D3D1B1CA6828C00D059C3 /* Main.storyboard */,
+				C22DDA2E1BB7638200FAAD42 /* LaunchScreen.storyboard */,
+				C22DDA311BB7638200FAAD42 /* Info.plist */,
+				C22DDA251BB7638200FAAD42 /* AppDelegate.swift */,
+				C2C0EAAD1BF7EE5E003FE224 /* SwiftyJSON.swift */,
+				C20781F21C66F48F00A5CEE0 /* Pirates Of Tokyo Bay-Bridging-Header.h */,
+				C2C209B11D32065100AA7CE4 /* LoadingTableView.swift */,
+				C2B012A91D75BB2B00F17563 /* InternetConnection.swift */,
+			);
+			path = Pirates;
+			sourceTree = "<group>";
+		};
+		C22DDA391BB7638200FAAD42 /* PiratesTests */ = {
+			isa = PBXGroup;
+			children = (
+				C22DDA3A1BB7638200FAAD42 /* PiratesTests.swift */,
+				C22DDA3C1BB7638200FAAD42 /* Info.plist */,
+			);
+			path = PiratesTests;
+			sourceTree = "<group>";
+		};
+		C22DDA441BB7638200FAAD42 /* PiratesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C22DDA451BB7638200FAAD42 /* PiratesUITests.swift */,
+				C22DDA471BB7638200FAAD42 /* Info.plist */,
+			);
+			path = PiratesUITests;
+			sourceTree = "<group>";
+		};
+		C2427CEC1C9DE0FC00AD5414 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C28B039A1C01448E00A39D70 /* EventsTableViewController.swift */,
+				C29B1CE41C4B04C700B17AAE /* EventTableViewCell.swift */,
+				C24FC3971C825A8A00FC4BE3 /* GamesTableViewCell.swift */,
+				C2BEDC3D1BDC20A800CEDF7D /* MainViewController.swift */,
+				C20781FD1C6713F400A5CEE0 /* MapViewController.swift */,
+				C2FF40E81C7D86FB00710A57 /* NewsTableViewCell.swift */,
+				C24FC3931C82552100FC4BE3 /* PerformersTableViewCell.swift */,
+				C23492A71C5559E500A746CC /* ProgramsTableViewController.swift */,
+				C2BEDC3B1BDC021800CEDF7D /* SocialViewController.swift */,
+				C2BEDC411BDC3BFE00CEDF7D /* VoteRedViewController.swift */,
+				C2BEDC3F1BDC225900CEDF7D /* VoteWhiteViewController.swift */,
+				C2DC60311CB9D9BE0020509F /* ScheduleViewController.swift */,
+				C2B81C791CBBC3DD00D15AFC /* VoteViewController.swift */,
+				C2DD31721D582D7B00A6C9EB /* NewsViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C2427CED1C9DE10900AD5414 /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+				C2B517E61C1CEC4D00F2FDBE /* EventApi.swift */,
+				C27BC15E1C37C70300A2DF6D /* ProgramsApi.swift */,
+				C2C0EAA51BF7A414003FE224 /* VotingApi.swift */,
+			);
+			name = APIs;
+			sourceTree = "<group>";
+		};
+		C2B716E61D879BC70030019C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				C2B716ED1D879BE00030019C /* DateAndTimeFormatter.swift */,
+				C2B716F11D87B6B00030019C /* LabelWthMargins.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		FFDB9F0DD8E626C12D61C0A1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				74C360D2C80651C9E44608A4 /* Pods-Pirates Of Tokyo Bay.debug.xcconfig */,
+				A25245643E5A5EDE217B67FB /* Pods-Pirates Of Tokyo Bay.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C22DDA211BB7638200FAAD42 /* Pirates Of Tokyo Bay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C22DDA4A1BB7638200FAAD42 /* Build configuration list for PBXNativeTarget "Pirates Of Tokyo Bay" */;
+			buildPhases = (
+				74D67294AA2406C77D17249A /* [CP] Check Pods Manifest.lock */,
+				C22DDA1E1BB7638200FAAD42 /* Sources */,
+				C22DDA1F1BB7638200FAAD42 /* Frameworks */,
+				C22DDA201BB7638200FAAD42 /* Resources */,
+				C28B03991C012D8600A39D70 /* Embed Frameworks */,
+				2CCF3740B17E3FB6EB139874 /* [CP] Embed Pods Frameworks */,
+				3395DFF1C85FDD889AA43BD3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pirates Of Tokyo Bay";
+			productName = Pirates;
+			productReference = C22DDA221BB7638200FAAD42 /* Pirates Of Tokyo Bay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C22DDA351BB7638200FAAD42 /* Pirates Of Tokyo BayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C22DDA4D1BB7638200FAAD42 /* Build configuration list for PBXNativeTarget "Pirates Of Tokyo BayTests" */;
+			buildPhases = (
+				C22DDA321BB7638200FAAD42 /* Sources */,
+				C22DDA331BB7638200FAAD42 /* Frameworks */,
+				C22DDA341BB7638200FAAD42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C22DDA381BB7638200FAAD42 /* PBXTargetDependency */,
+			);
+			name = "Pirates Of Tokyo BayTests";
+			productName = PiratesTests;
+			productReference = C22DDA361BB7638200FAAD42 /* Pirates Of Tokyo Bay.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C22DDA401BB7638200FAAD42 /* Pirates Of Tokyo BayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C22DDA501BB7638200FAAD42 /* Build configuration list for PBXNativeTarget "Pirates Of Tokyo BayUITests" */;
+			buildPhases = (
+				C22DDA3D1BB7638200FAAD42 /* Sources */,
+				C22DDA3E1BB7638200FAAD42 /* Frameworks */,
+				C22DDA3F1BB7638200FAAD42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C22DDA431BB7638200FAAD42 /* PBXTargetDependency */,
+			);
+			name = "Pirates Of Tokyo BayUITests";
+			productName = PiratesUITests;
+			productReference = C22DDA411BB7638200FAAD42 /* Pirates Of Tokyo Bay.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C22DDA1A1BB7638200FAAD42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Issam Zeibak";
+				TargetAttributes = {
+					C22DDA211BB7638200FAAD42 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = SG4J2R62WM;
+						LastSwiftMigration = 0800;
+					};
+					C22DDA351BB7638200FAAD42 = {
+						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0800;
+						TestTargetID = C22DDA211BB7638200FAAD42;
+					};
+					C22DDA401BB7638200FAAD42 = {
+						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0800;
+						TestTargetID = C22DDA211BB7638200FAAD42;
+					};
+				};
+			};
+			buildConfigurationList = C22DDA1D1BB7638200FAAD42 /* Build configuration list for PBXProject "Pirates Of Tokyo Bay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C22DDA191BB7638200FAAD42;
+			productRefGroup = C22DDA231BB7638200FAAD42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C22DDA211BB7638200FAAD42 /* Pirates Of Tokyo Bay */,
+				C22DDA351BB7638200FAAD42 /* Pirates Of Tokyo BayTests */,
+				C22DDA401BB7638200FAAD42 /* Pirates Of Tokyo BayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C22DDA201BB7638200FAAD42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C27D3D1C1CA6828C00D059C3 /* Main.storyboard in Resources */,
+				C23492B01C55B48900A746CC /* Podfile in Resources */,
+				C22DDA301BB7638200FAAD42 /* LaunchScreen.storyboard in Resources */,
+				C22DDA2D1BB7638200FAAD42 /* Assets.xcassets in Resources */,
+				C22A16D41CCC437200811947 /* NotoSansCJKjp-Regular.otf in Resources */,
+				C23492B21C55B4AF00A746CC /* temp.Podfile.lock in Resources */,
+				C22A16D01CCC437200811947 /* NotoSansCJKjp-Bold.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C22DDA341BB7638200FAAD42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C22DDA3F1BB7638200FAAD42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2CCF3740B17E3FB6EB139874 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pirates Of Tokyo Bay/Pods-Pirates Of Tokyo Bay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3395DFF1C85FDD889AA43BD3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pirates Of Tokyo Bay/Pods-Pirates Of Tokyo Bay-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74D67294AA2406C77D17249A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C22DDA1E1BB7638200FAAD42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2B81C7A1CBBC3DD00D15AFC /* VoteViewController.swift in Sources */,
+				C2DD31731D582D7B00A6C9EB /* NewsViewController.swift in Sources */,
+				C2B716EE1D879BE00030019C /* DateAndTimeFormatter.swift in Sources */,
+				C23492A81C5559E500A746CC /* ProgramsTableViewController.swift in Sources */,
+				C2DC60321CB9D9BE0020509F /* ScheduleViewController.swift in Sources */,
+				C22DDA261BB7638200FAAD42 /* AppDelegate.swift in Sources */,
+				C2C209B21D32065100AA7CE4 /* LoadingTableView.swift in Sources */,
+				C28B039B1C01448E00A39D70 /* EventsTableViewController.swift in Sources */,
+				C20781FE1C6713F400A5CEE0 /* MapViewController.swift in Sources */,
+				C2C0EAAE1BF7EE5E003FE224 /* SwiftyJSON.swift in Sources */,
+				C24FC3981C825A8A00FC4BE3 /* GamesTableViewCell.swift in Sources */,
+				C2B517E71C1CEC4D00F2FDBE /* EventApi.swift in Sources */,
+				C2BEDC3C1BDC021800CEDF7D /* SocialViewController.swift in Sources */,
+				C2BEDC3E1BDC20A800CEDF7D /* MainViewController.swift in Sources */,
+				C2B716F21D87B6B00030019C /* LabelWthMargins.swift in Sources */,
+				C27BC15F1C37C70300A2DF6D /* ProgramsApi.swift in Sources */,
+				C2BEDC401BDC225900CEDF7D /* VoteWhiteViewController.swift in Sources */,
+				C24FC3941C82552100FC4BE3 /* PerformersTableViewCell.swift in Sources */,
+				C2FF40E91C7D86FB00710A57 /* NewsTableViewCell.swift in Sources */,
+				C2C0EAA61BF7A414003FE224 /* VotingApi.swift in Sources */,
+				C2B012AA1D75BB2B00F17563 /* InternetConnection.swift in Sources */,
+				C2BEDC421BDC3BFE00CEDF7D /* VoteRedViewController.swift in Sources */,
+				C29B1CE51C4B04C700B17AAE /* EventTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C22DDA321BB7638200FAAD42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C22DDA3B1BB7638200FAAD42 /* PiratesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C22DDA3D1BB7638200FAAD42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C22DDA461BB7638200FAAD42 /* PiratesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C22DDA381BB7638200FAAD42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C22DDA211BB7638200FAAD42 /* Pirates Of Tokyo Bay */;
+			targetProxy = C22DDA371BB7638200FAAD42 /* PBXContainerItemProxy */;
+		};
+		C22DDA431BB7638200FAAD42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C22DDA211BB7638200FAAD42 /* Pirates Of Tokyo Bay */;
+			targetProxy = C22DDA421BB7638200FAAD42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C22DDA2E1BB7638200FAAD42 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C22DDA2F1BB7638200FAAD42 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C22DDA481BB7638200FAAD42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Issan Zeibak (SG4J2R62WM)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Issan Zeibak (SG4J2R62WM)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-w";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C22DDA491BB7638200FAAD42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Issan Zeibak (SG4J2R62WM)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Issan Zeibak (SG4J2R62WM)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-w";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C22DDA4B1BB7638200FAAD42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74C360D2C80651C9E44608A4 /* Pods-Pirates Of Tokyo Bay.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = SG4J2R62WM;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Pirates/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = feveroftime.PiratesOfTokyoBay;
+				PRODUCT_NAME = "Pirates Of Tokyo Bay";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Pirates/Pirates Of Tokyo Bay-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C22DDA4C1BB7638200FAAD42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A25245643E5A5EDE217B67FB /* Pods-Pirates Of Tokyo Bay.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = SG4J2R62WM;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Pirates/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = feveroftime.PiratesOfTokyoBay;
+				PRODUCT_NAME = "Pirates Of Tokyo Bay";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Pirates/Pirates Of Tokyo Bay-Bridging-Header.h";
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		C22DDA4E1BB7638200FAAD42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PiratesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = feveroftime.PiratesTests;
+				PRODUCT_NAME = "Pirates Of Tokyo Bay";
+				SWIFT_VERSION = 2.3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pirates Of Tokyo Bay.app/Pirates Of Tokyo Bay";
+			};
+			name = Debug;
+		};
+		C22DDA4F1BB7638200FAAD42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PiratesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = feveroftime.PiratesTests;
+				PRODUCT_NAME = "Pirates Of Tokyo Bay";
+				SWIFT_VERSION = 2.3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pirates Of Tokyo Bay.app/Pirates Of Tokyo Bay";
+			};
+			name = Release;
+		};
+		C22DDA511BB7638200FAAD42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PiratesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = feveroftime.PiratesUITests;
+				PRODUCT_NAME = "Pirates Of Tokyo Bay";
+				SWIFT_VERSION = 2.3;
+				TEST_TARGET_NAME = Pirates;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C22DDA521BB7638200FAAD42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PiratesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = feveroftime.PiratesUITests;
+				PRODUCT_NAME = "Pirates Of Tokyo Bay";
+				SWIFT_VERSION = 2.3;
+				TEST_TARGET_NAME = Pirates;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C22DDA1D1BB7638200FAAD42 /* Build configuration list for PBXProject "Pirates Of Tokyo Bay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C22DDA481BB7638200FAAD42 /* Debug */,
+				C22DDA491BB7638200FAAD42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C22DDA4A1BB7638200FAAD42 /* Build configuration list for PBXNativeTarget "Pirates Of Tokyo Bay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C22DDA4B1BB7638200FAAD42 /* Debug */,
+				C22DDA4C1BB7638200FAAD42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C22DDA4D1BB7638200FAAD42 /* Build configuration list for PBXNativeTarget "Pirates Of Tokyo BayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C22DDA4E1BB7638200FAAD42 /* Debug */,
+				C22DDA4F1BB7638200FAAD42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C22DDA501BB7638200FAAD42 /* Build configuration list for PBXNativeTarget "Pirates Of Tokyo BayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C22DDA511BB7638200FAAD42 /* Debug */,
+				C22DDA521BB7638200FAAD42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C22DDA1A1BB7638200FAAD42 /* Project object */;
+}

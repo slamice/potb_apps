@@ -1,0 +1,13 @@
+PODS:
+  - GoogleMaps (1.13.0)
+  - Kanna (1.0.6)
+
+DEPENDENCIES:
+  - GoogleMaps
+  - Kanna (~> 1.0.4)
+
+SPEC CHECKSUMS:
+  GoogleMaps: 7a6caeb8336d7cb42982e969fc9b1b20a889fe79
+  Kanna: 9f30945bbd293a609f698ea164687ccc0990ff60
+
+COCOAPODS: 0.39.0

@@ -1,0 +1,6 @@
+framework module Pods_Pirates_Of_Tokyo_Bay {
+  umbrella header "Pods-Pirates Of Tokyo Bay-umbrella.h"
+
+  export *
+  module * { export * }
+}
